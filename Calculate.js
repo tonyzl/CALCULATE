@@ -1,14 +1,14 @@
 class Calculate{
-    toadd(num1,num2){
+    addi(num1,num2){
         return num1+num2;
     }
-    tosus(num1,num2){
+    sust(num1,num2){
         return num1-num2;
     }
-    tomult(num1,num2){
+    mult(num1,num2){
         return num1*num2;
     }
-    todiv(num1,num2){
+    divi(num1,num2){
         return num1/num2;
     }
 }

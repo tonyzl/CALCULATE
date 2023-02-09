@@ -8,3 +8,7 @@ const display = new Display(displayPvalue,displayAvalue);
 btsNumbers.forEach(boton => {
     boton.addEventListener('click', () => display.insertnumber(boton.innerHTML));
 });
+
+btsOpers.forEach(boton =>{
+    boton.addEventListener('click', () => display.compute(boton.value));
+});
